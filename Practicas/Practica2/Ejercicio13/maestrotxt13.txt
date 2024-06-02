@@ -1,0 +1,12 @@
+argentina
+5 8 12
+100
+bolivia
+7 6 12
+100
+colombia
+4 3 20
+100
+zimbabwe
+10 12 15
+100

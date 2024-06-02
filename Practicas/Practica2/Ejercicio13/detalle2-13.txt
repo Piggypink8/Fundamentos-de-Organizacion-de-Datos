@@ -1,0 +1,6 @@
+argentina
+5 8 12
+20
+colombia
+4 3 20
+5

@@ -1,0 +1,6 @@
+1 4
+cris  lixtor
+2 6
+dani  piggy
+3 1
+ivan  criupa
