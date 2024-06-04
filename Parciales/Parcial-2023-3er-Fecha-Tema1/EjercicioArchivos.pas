@@ -18,7 +18,6 @@ type
 	maestro = file of producto;
 	detalle = file of prodDetalle;
 	
-	arrMontos := array[1..20] of integer;
 	arrDet = array[1..20] of detalle;
 	arrRegDet = array[1..20] of prodDet;
 procedure leerDetalle(var ad:detalle; var p:prodDet);
