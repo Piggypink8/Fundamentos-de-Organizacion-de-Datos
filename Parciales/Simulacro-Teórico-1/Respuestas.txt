@@ -1,0 +1,44 @@
+1)
+  A. Tiene acceso secuencial y orden de búsqueda lineal. 
+
+2)
+  E. Todas las anteriores. El enunciado no habla de cual es más eficiente, por lo tanto de poder, se pueden todas las opciones para actualizar.  
+
+3)
+  D. Falta información, no especifica que tipo de baja se realiza.  
+
+4)
+  D. No tengo información suficiente para contestar. 
+
+5)
+  F. Algunas de las respuestas anteriores son válidas, es necesario 1 criterio y es suficiente con 2 criterios. 
+
+6)
+  C. Esta constituida por al menos un atributo del archivo donde esta definida 
+
+7)
+  G. Ninguna de las anteriores, un índice se implementa con archivos. 
+
+8)
+  D. Todas las anteriores son válidas. 
+
+9)
+  D. No tengo datos suficientes para responder
+
+10)
+  F. Ninguna, puede ser B*, B+... (Decir ES UN es definirlo completamente) 
+
+11)
+  D. Todas las anteriores son válidas 
+
+12)
+  A. Uniforme y aleatoria 
+
+13)
+  D. Todas las anteriores son válidas 
+
+14)
+  B. Se realiza al menos una de escritura y una de lectura. 
+
+15)
+  E. Ninguna de las anteriores, no usa densidad de empaquetamiento. 
