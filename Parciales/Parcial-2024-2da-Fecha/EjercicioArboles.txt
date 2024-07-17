@@ -1,0 +1,45 @@
+program Parcial;
+const 
+    M = 5;
+type 
+    nodo = record 
+        hijos: array [1..M] of integer;
+        claves: array [1..M-1] of integer;
+        enlaces: array [1..M-1] of integer;
+        cant_elem: integer;
+    end;
+
+    indice = file of nodo;
+
+begin
+  
+end.
+
+
+
+
+ARBOL B ORDEN 5 -> 	MINIMO = (5/2)-1 = 1
+				8: 2(150)7
+	2: 0(120)3				7:4(210)6(300)1(600)9
+0:(30)             3:(130)		4:(160)(170)	6:(220)(230)(240)(250)	1:(400)(500)	9:(700)
+
+280+ 	L8,L7,L6,E6,E9,E7
+
+- Se agrega clave 280 al nodo 6, hay overflow, divido, creo el nuevo
+  nodo 5 (Al no ver nodo 5, se supone que está en la pila), se promociona la clave 240
+
+				8: 2(150)7
+	2: 0(120)3				7:4(210)6(240)9(300)1(600)9
+0:(30)	         3:(130)		4:(160)(170)	6:(220)(230)  5:(250)(280)	1:(400)(500)	9:(700)
+
+
+-120	L8, L2, L3, L0, L7, E2, E0, E2, E7, E8
+
+- Baja de la clave 120 del nodo 2, como no es nodo hoja, reemplazo por la menor clave
+  de su subárbol derecho, hay underflow en el nodo 3, no puedo redistribuir con el único hermano,
+  lo fusiono con el mismo, liberoel nodo 3, se propaga el underflow al nodo 2 y redistribuyo con su hermano adyacente
+
+					8: 2(240)7
+                  2: 0(150)4(210)5                                  7: 5(300)1(600)9
+
+0: (30)(130)     4: (160)(170)    6: (220)(230)    5: (250)(280)    1: (400) (500)    9: (700)
